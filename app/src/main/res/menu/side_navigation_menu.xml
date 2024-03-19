@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/sidenav_home"
+        android:icon="@drawable/home_add_angle_svgrepo_com"
+        android:title="Home" />
+
+    <item android:id="@+id/sidenav_profile"
+        android:icon="@drawable/person_svgrepo_com"
+        android:title="Profile" />
+
+    <item android:id="@+id/sidenav_msg"
+        android:icon="@drawable/message_mail_email_letter_envelope_svgrepo_com"
+        android:title="Message" />
+
+
+    <item android:title="More Options">
+        <menu>
+            <item android:id="@+id/sidenav_settings"
+                android:icon="@drawable/setting_svgrepo_com"
+                android:title="Settings"/>
+            <item android:id="@+id/sidenav_logout"
+                android:icon="@drawable/message_mail_email_letter_envelope_svgrepo_com"
+                android:title="Logout"/>
+        </menu>
+
+
+    </item>
+</menu>
